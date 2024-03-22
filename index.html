@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stasiun Semarang Tawang</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Tambahkan link Bootstrap CSS di sini -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/81/Stasiun_Tawang_Complex_%282021%29.jpg');
+            background-size: cover;
+            color: white;
+        }
+        .transparent-box {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h1, h2 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        p {
+            text-align: justify;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Stasiun Semarang Tawang</h1>
+        </header>
+        <main>
+            <p>"Stasiun Semarang Tawang (SMT), juga disebut Stasiun Tawang atau Semarang Tawang Bank Jateng karena perjanjian hak penamaan[4], adalah stasiun kereta api kelas besar tipe A yang terletak di kawasan Kota Lama Semarang, Tanjung Mas, Semarang Utara, Semarang. Stasiun yang terletak pada ketinggian +2 meter di atas permukaan laut berada dalam pengelolaan Kereta Api Indonesia Daerah Operasi IV Semarang dengan jarak 280 km sebelah barat dari Surabaya Pasarturi dan 440 km sebelah timur dari Jakarta Gambir. Stasiun Semarang Tawang juga merupakan titik tengah dari lintas utara Jawa, menghubungkan Jakarta dengan Surabaya serta sebagai salah satu dari dua stasiun kereta api utama di Kota Semarang..</p>
+            <div class="transparent-box">
+                <p id="currentDate">Tanggal Sekarang: Kamis 14 Maret 2024 </p>
+                <p id="currentTime">Waktu Sekarang: PUKUL 8 PAGI</p>
+                <button onclick="showAlert()">CLICK UNTUK MELIHAT</button>
+                <h2>HALO SOBAT KAI</h2>
+            </div>
+            <!-- Carousel -->
+            <div id="carouselExampleIndicators" class="carousel slide mt-4" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="https://akcdn.detik.net.id/visual/2024/03/14/stasiun-semarang-tawang-lumpuh-total-dikepung-banjir-1_169.jpeg?w=650" alt="foto kondisi stasiun semarang tawang">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="https://media-cdn.tripadvisor.com/media/photo-s/17/7f/d2/cf/interior-stasiun.jpg" alt="Eksterior stasiun">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="https://imgcdn.solopos.com/@space/2020/04/13Sejarah-Stasiun-Tawang.jpg" alt="sejarah nya">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Sebelumnya</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Selanjutnya</span>
+                </a>
+            </div>
+        </main>
+    </div>
+    <!-- Tambahkan script Bootstrap dan script.js di bawah -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function showAlert() {
+            alert('Selamat melihat foto foto nya ');
+        }
+    </script>
+</body>
+</html>
